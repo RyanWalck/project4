@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState } from 'react';
 
 export const useBestRacers = () => {
-  const baseUrl = 'http://localhost:2000/api/v1';
+  const baseUrl = 'https://roadwayracing.onrender.com/api/v1';
   const [success, setSuccess] = useState('');
   const [error, setError] = useState({ error: false, errMessage: '' });
   const [loading, setLoading] = useState(false);
