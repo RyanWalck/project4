@@ -43,7 +43,7 @@ function Track() {
       getSingleTrack(trackId);
     }
     getAllBestRacers();
-  }, []);
+  }, [trackId, getSingleTrack, getAllBestRacers]);
   console.log(bestRacers);
 
 
