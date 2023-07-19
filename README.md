@@ -12,4 +12,4 @@ Also used in this was MongoDB to store my information
 
 How to get started with this app
 -------------------------------------------
-First just load this (this link) and you will be directed to the homepage. After that you can go to the tracks oage and see all the track people are adding. Click any track to be taken to that tracks ownpage with all racers who have documented their time as well as what car they drove durin that race. 
+[First just load this (https://racingroadways.netlify.app/)] and you will be directed to the homepage. After that you can go to the tracks oage and see all the track people are adding. Click any track to be taken to that tracks ownpage with all racers who have documented their time as well as what car they drove durin that race. 
