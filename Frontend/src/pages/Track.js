@@ -26,7 +26,7 @@ function Track() {
     success,
     editRacer,
   } = useBestRacers();
-
+console.log(editRacer)
   const [formData, setformData] = useState({
     racerName: '',
     position: '',
@@ -218,7 +218,7 @@ function Track() {
             />
           </div>
           <div className='btnWrapper'>
-            {editRacer ? (
+            {!editRacer ? (
               <button
                 disabled={loading}
                 type='submit'
